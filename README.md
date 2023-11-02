@@ -2,10 +2,10 @@
 
 #To run the application
 
-Install the project dependencies:
-npm install
-Start the development server:
-npm run dev
+Install the project dependencies:  
+npm install  
+Start the development server:  
+npm run dev  
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
