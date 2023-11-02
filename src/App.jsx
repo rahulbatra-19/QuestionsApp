@@ -60,7 +60,11 @@ export default function App() {
               />
             </>
           ) : (
-            <Result result={result} length={questionData.length} name={userName} />
+            <Result
+              result={result}
+              length={questionData.length}
+              name={userName}
+            />
           )}
         </>
       )}
