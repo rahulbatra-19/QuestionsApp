@@ -1,0 +1,140 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+/* 
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+*/
+ button {
+
+  border-radius: 20px;
+  border: 1px solid transparent;
+  padding: .6em 1.2em;
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #9885b6;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} 
+ul{
+    list-style: none;
+}
+li{
+    margin-top: 20px;
+}
+
+
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1610208956588-61f6c2e6136a?auto=format&fit=crop&q=80&w=3270&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+input[type="text"]{
+    padding: .6rem;
+    font-size: 1.5rem;
+    margin-right: 10px;
+  background-color: #9885b6;
+  border-radius: 20px;
+  border:0;
+
+
+}
+input::placeholder{
+    /* font-size: 1.5rem; */
+    color: white;
+    opacity: 0.7;
+
+}
+h1{
+    font-size: 70px;
+}
+.timerClass{
+    size: 30;
+}
+.optionsDiv{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: '70%';
+}
+.submitButton{
+    margin-top: 3rem;
+    background-color: #9685AF;
+    color: white;
+}
+.optionsbutton{
+    background-color: #3f3f3f;
+    margin-top: 1em;
+
+}
+
+.questionStyles{
+    font-size: 2em;
+    font-weight: 600;
+    text-align: 'left';
+}
+.questionDiv{
+    /* width: fit-content; */
+    /* width: 800px; */
+    align-items: 'center';
+}
+.resultdiv{
+    background-color: '#9685af';
+}
+.progressbar-innerdiv{
+    height: 40px ;
+}
+.progressbar{
+    height: 40px;
+    width: 300px;
+}
+@media (max-width: 480px) {
+  body {
+    font-size: 12px; 
+  }
+  h1{
+    font-size: 50px;
+  }
+  input[type="text"]{
+    padding: .6rem;
+    font-size: 1rem;
+}
+.progressbar-innerdiv{
+    height: 20px ;
+}
+.progressbar{
+    height: 20px;
+    width: 200px;
+}
+}
+
